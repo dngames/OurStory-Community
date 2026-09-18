@@ -1,0 +1,77 @@
+name: "🐛 Bug report"
+description: "Something in the story didn't come out right — tell us what happened."
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to tell us something's off. The more detail you can give, the faster we can track it down.
+
+  - type: input
+    id: version
+    attributes:
+      label: App / Site version
+      description: If you know it — the version shown in About, or roughly when you last visited the site.
+      placeholder: "e.g. 0.2.0, or 'today'"
+    validations:
+      required: false
+
+  - type: input
+    id: device-browser
+    attributes:
+      label: Device / browser
+      description: Your phone model, or your browser + OS.
+      placeholder: "e.g. Pixel 8, or Chrome on Windows 11"
+    validations:
+      required: false
+
+  - type: textarea
+    id: link
+    attributes:
+      label: The story link, if it's part of the bug
+      description: If the bug happened with a specific story, paste the #txt= link here (or say if it happens with any story, including the built-in demos).
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Walk us through it, step by step, like you're telling a friend.
+      placeholder: |
+        1. Open the story
+        2. Click "Ascend the spiral stairs"
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or a screen recording
+      description: Drag and drop files here if you have them — a screenshot is worth a thousand words.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send this
+      options:
+        - label: I looked through existing issues and didn't see this one already reported.
+          required: true
