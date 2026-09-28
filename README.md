@@ -11,6 +11,18 @@
 
 ---
 
+<div align="center">
+
+<a href="https://github.com/dngames/OurStory-Community/blob/main/media/a-story-for-you-trailer.mp4">
+  <img src="media/trailer-preview.gif" alt="A Story For You — trailer: a whole branching story inside a single link" width="720">
+</a>
+
+**▶ [Watch the 70-second trailer (with sound)](https://github.com/dngames/OurStory-Community/blob/main/media/a-story-for-you-trailer.mp4)**
+
+</div>
+
+---
+
 *A Story For You* (formerly *Our Story*) is a small, quiet toy: a browser-based branching-fiction engine where an entire micro-quest or gamebook travels inside a single URL link — no backend, no account, no download.
 
 This repository isn't the app itself — it's the porch light. It's where you tell us something broke, ask for something new, or talk with other people who've sent (or received) a story.
